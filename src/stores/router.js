@@ -20,4 +20,12 @@ export default class RouterStore {
   navigateToEndgame = () => {
     this.currentScreen = 'ENDGAME';
   };
+
+  navigateToTrivia = () => {
+    this.currentScreen = 'TRIVIA';
+  };
+
+  navigateToScoreboard = () => {
+    this.currentScreen = 'SCOREBOARD';
+  };
 }

@@ -32,7 +32,7 @@ type Props = {
   handleTilePress: allStores.game.handleTilePress,
 }))
 @observer
-export default class Playground extends Component<Props, Props, void> {
+export default class Trivia extends Component<Props, Props, void> {
   _boardRef = null;
 
   static defaultProps = {

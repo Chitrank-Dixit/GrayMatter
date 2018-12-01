@@ -1,4 +1,4 @@
-package com.tapthenumber;
+package com.TapTheNumber;
 
 import android.app.Application;
 import android.util.Log;

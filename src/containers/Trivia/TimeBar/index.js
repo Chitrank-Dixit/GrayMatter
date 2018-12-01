@@ -15,12 +15,12 @@ type State = {
 
 export default class TimeBar extends Component<void, {}, State> {
   state = {
-    animateValue: new Animated.Value(timings.TIME_LIMIT_MS),
+    animateValue: new Animated.Value(timings.TIME_LIMIT_MS_QUIZ),
   };
 
   componentDidMount() {
     Animated.timing(this.state.animateValue, {
-      duration: timings.TIME_LIMIT_MS,
+      duration: timings.TIME_LIMIT_MS_QUIZ,
       easing: Easing.linear, // No easing
       toValue: 0,
     }).start();

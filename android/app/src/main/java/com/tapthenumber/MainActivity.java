@@ -1,4 +1,4 @@
-package com.tapthenumber;
+package com.TapTheNumber;
 
 import com.facebook.react.ReactActivity;
 
